@@ -1,15 +1,13 @@
 import React, { Component } from "react";
+
+import "../../styles/Timer.scss";
+
 import { connect } from "react-redux";
 
 import * as actions from "../../redux/timer/timerActions";
 
 import TimerDisplay from "../TimerDisplay/TimerDisplay";
 import TimerControls from "../TimerControls/TimerControls";
-
-// import * as actions from "../../redux/timer/timerActions";
-
-// import TimerDisplay from "../TimerDisplay/TimerDisplay";
-// import TimerControls from "../TimerControls/TimerControls";
 
 import song from "../../audio/audio.mp3";
 
@@ -55,10 +53,10 @@ class Timer extends Component {
 
   render() {
     return (
-      <div>
-        <h3>Timer</h3>
+      <div className="Timer__container">
+        <h3 className="Timer__title">Timer</h3>
 
-        <label>
+        <label className="Timer__input">
           Input seconds to end timer:{" "}
           <input
             type="number"
