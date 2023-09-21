@@ -1,11 +1,14 @@
 {
   "files": {
-    "main.js": "/react-redux-timer-class-notoolkit/static/js/main.76ba1646.js",
+    "main.css": "/react-redux-timer-class-notoolkit/static/css/main.992c4207.css",
+    "main.js": "/react-redux-timer-class-notoolkit/static/js/main.7786944e.js",
     "static/media/audio.mp3": "/react-redux-timer-class-notoolkit/static/media/audio.fd2c2fea27379cbc44da.mp3",
     "index.html": "/react-redux-timer-class-notoolkit/index.html",
-    "main.76ba1646.js.map": "/react-redux-timer-class-notoolkit/static/js/main.76ba1646.js.map"
+    "main.992c4207.css.map": "/react-redux-timer-class-notoolkit/static/css/main.992c4207.css.map",
+    "main.7786944e.js.map": "/react-redux-timer-class-notoolkit/static/js/main.7786944e.js.map"
   },
   "entrypoints": [
-    "static/js/main.76ba1646.js"
+    "static/css/main.992c4207.css",
+    "static/js/main.7786944e.js"
   ]
 }
